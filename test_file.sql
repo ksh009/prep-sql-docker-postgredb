@@ -1,0 +1,1 @@
+SELECT clients.id, clients.first_name, places.province FROM clients INNER JOIN places ON places.client_id = clients.id  WHERE province = 'Free State';
